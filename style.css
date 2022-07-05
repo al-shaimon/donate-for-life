@@ -8,7 +8,7 @@ body{
   height: auto;
   position: relative;
   width: 1600px;
-  background-color: red;
+  padding-bottom: 50px;
 }
 
 .container img{
@@ -43,10 +43,88 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   text-decoration: none;
-  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  background-image: linear-gradient( rgb(255, 0, 0), rgb(249, 0, 0));
   padding: 10px 40px;
   border-radius: 5px;
   color: white;
   font-weight: 700;
   
+}
+
+.donate-container{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.amount-container{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+#selected-amount{
+  color: red;
+  padding: 15px;
+  border: 2px solid;
+  background-color: rgba(255, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+#amount-one{
+  padding: 15px;
+  background-color: rgba(128, 128, 128, 0.20);
+  border-radius: 5px;
+}
+
+#amount-two{
+  padding: 15px;
+  background-color: rgba(128, 128, 128, 0.20);
+  border-radius: 5px;
+}
+
+#amount-three{
+  padding: 15px;
+  background-color: rgba(128, 128, 128, 0.20);
+  border-radius: 5px;
+}
+
+#amount-four{
+  padding: 15px;
+  background-color: rgba(128, 128, 128, 0.20);
+  border-radius: 5px;
+}
+
+.amount-other{
+  font-size: 25px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ccc;
+  padding-bottom: 50px;
+  margin-top: -25px;
+}
+
+.link-btn-two{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  background-image: linear-gradient( rgb(255, 0, 0), rgb(249, 0, 0));
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+.donate-heading{
+  padding-top: 150px;
+}
+
+.donate-plan{
+  display: flex;
+  text-align: justify;
 }
