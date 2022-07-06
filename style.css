@@ -7,13 +7,14 @@ body{
 .container{
   height: auto;
   position: relative;
-  width: 1600px;
+  width: 1510px;
   padding-bottom: 50px;
 }
 
 .container img{
   width: 100%;
   display: block;
+  height: 600px;
 }
 
 .top-header{
@@ -52,7 +53,7 @@ body{
 }
 
 .donate-container{
-  margin: auto;
+  margin-left: 350px;
   width: 50%;
   padding: 10px;
   text-align: center;
@@ -125,6 +126,50 @@ hr {
 }
 
 .donate-plan{
-  display: flex;
-  text-align: justify;
+  position: relative;
+  width: 1200px;
+  height: 300px;
+  margin-left: -200px;
 }
+
+.donate-plan .box{
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  background: rgba(128, 128, 128, 0.25);
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.donate-plan .box-two{
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  background: pink;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.donate-plan .box-three{
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  background: rgba(255, 255, 0, 0.5);
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.donate-plan .box .icon{
+  text-align: left;
+  padding: 50px 0px 0px 25px;
+}
+
