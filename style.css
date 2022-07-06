@@ -138,7 +138,7 @@ hr {
   position: relative;
   width: calc(400px - 30px);
   height: calc(300px - 30px);
-  background: rgba(128, 128, 128, 0.25);
+  background: rgba(128, 128, 128, 0.3);
   float: left;
   margin: 15px;
   box-sizing: border-box;
@@ -150,7 +150,7 @@ hr {
   position: relative;
   width: calc(400px - 30px);
   height: calc(300px - 30px);
-  background: pink;
+  background: rgba(255,192,203,0.5);
   float: left;
   margin: 15px;
   box-sizing: border-box;
@@ -162,7 +162,7 @@ hr {
   position: relative;
   width: calc(400px - 30px);
   height: calc(300px - 30px);
-  background: rgba(255, 255, 0, 0.5);
+  background: rgba(255, 255, 0, 0.4);
   float: left;
   margin: 15px;
   box-sizing: border-box;
@@ -173,6 +173,35 @@ hr {
 .icon{
   text-align: left;
   padding: 50px 0px 0px 25px;
+}
+
+.container-newsletter{
+  text-align: center;
+}
+
+.sub-email{
+  height: 100px;
+  width: auto;
+  margin: 50px 350px 70px;
+  padding-top: 70px;
+  text-align: center;
+  background-color: rgba(255, 255, 0, 0.4);
+}
+
+.email-box{
+  height: 28px;
+  width: 200px;
+  margin-right: -5px;
+  border-radius: 3px;
+  background-color: rgba(128, 128, 128, 0.467);
+}
+
+.sub-btn{
+  width: 140px;
+  height: 35px;
+  background-color: red;
+  color: white;
+  border-radius: 3px;
 }
 
 footer{
