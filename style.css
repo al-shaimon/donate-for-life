@@ -132,7 +132,7 @@ hr {
   margin-left: -200px;
 }
 
-.donate-plan .box{
+.box{
   position: relative;
   width: calc(400px - 30px);
   height: calc(300px - 30px);
@@ -144,7 +144,7 @@ hr {
   border-radius: 10px;
 }
 
-.donate-plan .box-two{
+.box-two{
   position: relative;
   width: calc(400px - 30px);
   height: calc(300px - 30px);
@@ -156,7 +156,7 @@ hr {
   border-radius: 10px;
 }
 
-.donate-plan .box-three{
+.box-three{
   position: relative;
   width: calc(400px - 30px);
   height: calc(300px - 30px);
@@ -168,7 +168,7 @@ hr {
   border-radius: 10px;
 }
 
-.donate-plan .box .icon{
+.icon{
   text-align: left;
   padding: 50px 0px 0px 25px;
 }
