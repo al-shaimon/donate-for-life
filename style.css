@@ -101,13 +101,20 @@ body{
   font-size: 25px;
 }
 
+#enter-amount{
+  margin-top: 15px;
+  height: 30px;
+  border: none;
+  font-size: 15px;
+}
+
 hr {
   display: block;
   height: 1px;
   border: 0;
   border-top: 2px solid #ccc;
   padding-bottom: 50px;
-  margin-top: -25px;
+  margin-top: ;
 }
 
 .link-btn-two{
